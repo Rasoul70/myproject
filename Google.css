@@ -1,0 +1,133 @@
+body {
+    min-width: 100vh;
+    margin: 0;
+    padding: 20px 0 0 0;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+}
+
+nav,.click,.images,p,li{
+    cursor: pointer;
+}
+.card3:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #ffffff;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+.click:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+p:hover {
+    text-decoration-line: underline;
+}
+li:hover {
+    text-decoration-line: underline;
+}
+
+.Header {
+    width: 100%;
+    display: flex;
+    direction: rtl;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+    margin: 0 0 30px 0;
+
+}
+
+.card1 {
+    width: 35px;
+    height: 35px;
+    background-image: url(./images/Google\ account.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.card2 {
+    width: 35px;
+    height: 35px;
+    background-image: url(./images/Google\ apps.png);
+    background-size: cover;
+    border-radius: 50%;
+
+}
+
+header>nav:hover {
+    background-color: rgb(215, 215, 215);
+    border-style: solid;
+    border-color: rgb(215, 215, 215);
+}
+
+.mix {
+    width: 100%;
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    width: 45%;
+    height: 45px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border: 1px;
+    border-radius: 2rem;
+    border-style: solid;
+    padding: 0 10px;
+    border-color: rgb(228, 228, 228);
+    margin: 10px;
+}
+.card3_1{
+    width: 90%;
+}
+
+.image {
+    width: 20%;
+}
+.images{
+    width: 30px;
+}
+.click{
+    width: 10%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    border-radius: 0.5rem;
+    border-style: solid;
+    padding: 0 10px;
+    border-color: white;
+    margin: 20px;
+    background-color: rgb(245, 245, 245);
+    font-style: normal;
+}
+.Footer{
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding-right: 10px;
+}
+.card0{
+    height: 37.6vh;
+}
+ul>li{
+    display: inline-block;
+    padding: 15px;
+    color: black;
+}
+ul{
+    margin: 0;
+}
